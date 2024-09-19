@@ -1,0 +1,87 @@
+/*
+Template Name: Nx Models
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************services****************/
+.center_serv{
+padding-top:40px;
+padding-bottom:40px;
+background:#f4f4f4; 
+ }
+.member_2i span i{
+ width:50px;
+ height:50px;
+ line-height:50px;
+ background:#cb506d;
+ font-size:30px;
+ text-align:center;
+ border-radius:3px;
+ color:#fff;
+ }
+.member_2{
+margin-top:30px; 
+ }
+ 
+#course_o{
+padding-top:40px;
+padding-bottom:40px;
+  }
+.course_1i span{
+  display:inline-block;
+  font-size:60px;
+  border:5px solid #cb506d;
+  width:150px;
+  height:150px;
+  text-align:center;
+  line-height:140px;
+  border-radius:50%;
+  color:#cb506d;
+  }
+.course_1i:hover span{
+  border-color:#cb506d;
+  }
+.course_1i h4{
+ color:#cb506d;
+  }
+.course_1i{
+padding: 20px;
+background:#f4f4f4;
+}
+/*********************services_end****************/
+
+
+@media screen and (max-width : 767px){
+.course_1i {
+margin-top:10px;
+ }
+.member_2i {
+margin-top:15px;
+text-align:center; 
+ }
+.member_2i  h4{
+margin-top:10px!important; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.member_2i span i{
+width:30px;
+height:30px;
+line-height:30px;
+font-size:18px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.member_2i span i{
+width:40px;
+height:40px;
+line-height:40px;
+font-size:20px; 
+ }
+  }
+@media (min-width:1201px) and (max-width:1357px) {
+
+ }
